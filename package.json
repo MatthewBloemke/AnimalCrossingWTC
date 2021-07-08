@@ -1,0 +1,30 @@
+{
+  "name": "animal-crossing-wtc",
+  "version": "0.1.0",
+  "scripts": {
+    "start:dev": "nodemon src/server/server.js",
+    "build-prod": "webpack --mode production",
+    "build-dev": "webpack --watch --mode development"
+  },
+  "dependencies": {
+    "core-js": "^3.15.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "knex": "^0.95.6",
+    "pg": "^8.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.7",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.9"
+  }
+}
