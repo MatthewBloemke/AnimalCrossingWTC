@@ -6,10 +6,10 @@ import { Route, Switch } from 'react-router-dom';
 const App = () => {
     return (
         <Switch>
-            <Route path="/" exact="true">
+            <Route path="/dashboard" exact={true}>
                 <Dashboard/>
             </Route>
-            <Route path="/cityfolk">
+            <Route path="/cityfolk" exact={true}>
                 <CityFolkDash/>
             </Route>            
         </Switch>
