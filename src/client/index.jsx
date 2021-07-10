@@ -3,12 +3,12 @@ import "regenerator-runtime/runtime"
 import * as React from "react"
 import {render} from "react-dom"
 import { BrowserRouter as Router } from "react-router-dom"
-import Dashboard from "./Dashboard"
+import App from "./App"
 
 render(
     <React.StrictMode>
         <Router>
-            <Dashboard/>
+            <App/>
         </Router>        
     </React.StrictMode>, 
     document.getElementById("app")
