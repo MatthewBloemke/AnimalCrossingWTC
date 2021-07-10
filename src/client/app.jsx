@@ -1,11 +1,14 @@
 import React from 'react';
 import CityFolkDash from './CityFolkDash';
 import Dashboard from './Dashboard';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 const App = () => {
     return (
         <Switch>
+            <Route path="/" exact={true}>
+                <Redirect to={"/dashboard"}/>
+            </Route>
             <Route path="/dashboard" exact={true}>
                 <Dashboard/>
             </Route>
