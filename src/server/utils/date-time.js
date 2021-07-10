@@ -11,6 +11,10 @@ function asTimeString(date) {
     return date.getHours() + ":" + date.getMinutes();
 };
 
+export function currentMonth(date) {
+    return (date.getMonth() + 1)
+}
+
 export function today() {
     return asDateString(new Date());
 };
