@@ -2,6 +2,7 @@ import React from 'react';
 import CityFolkDash from './CityFolkDash';
 import Dashboard from './Dashboard';
 import { Route, Switch, Redirect } from 'react-router-dom';
+import {today} from "../server/utils/date-time"
 
 const App = () => {
     return (
@@ -13,7 +14,7 @@ const App = () => {
                 <Dashboard/>
             </Route>
             <Route path="/cityfolk" exact={true}>
-                <CityFolkDash/>
+                <CityFolkDash date={today()}/>
             </Route>            
         </Switch>
 
