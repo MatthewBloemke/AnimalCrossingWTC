@@ -11,7 +11,8 @@ function asTimeString(date) {
     return date.getHours() + ":" + date.getMinutes();
 };
 
-export function currentMonth(date) {
+export function currentMonth() {
+    const date = new Date()
     return (date.getMonth() + 1)
 }
 
