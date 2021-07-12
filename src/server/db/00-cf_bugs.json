@@ -6,7 +6,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "4:00",
         "catch_time_end": "19:00",
-        "months_array": [3,4,5,6,7,8,9]
+        "months_array": [3,4,5,6,7,8,9],
+        "months_str": "Mar - Sept"
     },
     {
         "bug_name": "Yellow butterfly",
@@ -15,7 +16,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [3,4,5,6,7,8,9]
+        "months_array": [3,4,5,6,7,8,9],
+        "months_str": "Mar - Sept"
     },
     {
         "bug_name": "Tiger Butterfly",
@@ -24,7 +26,8 @@
         "location": "Flying near red and pink flowers",
         "catch_time_start": "4:00",
         "catch_time_end": "19:00",
-        "months_array": [3,4,5,6]
+        "months_array": [3,4,5,6],
+        "months_str": "Mar - Jun"
     },
     {
         "bug_name": "Tiger Butterfly",
@@ -33,7 +36,8 @@
         "location": "Flying near red and pink flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Tiger Butterfly",
@@ -42,7 +46,8 @@
         "location": "Flying near red and pink flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "16:00",
-        "months_array": [9]
+        "months_array": [9],
+        "months_str": "Sept"
     },
     {
         "bug_name": "Peacock",
@@ -51,7 +56,8 @@
         "location": "Flying near hybrid flowers",
         "catch_time_start": "4:00",
         "catch_time_end": "19:00",
-        "months_array": [3,4,5,6]
+        "months_array": [3,4,5,6],
+        "months_str": "Mar - Jun"
     },
     {
         "bug_name": "Peacock",
@@ -60,7 +66,8 @@
         "location": "Flying near hybrid flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Peacock",
@@ -69,7 +76,8 @@
         "location": "Flying near hybrid flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "16:00",
-        "months_array": [9]
+        "months_array": [9],
+        "months_str": "Sept"
     },
     {
         "bug_name": "Monarch",
@@ -78,7 +86,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "4:00",
         "catch_time_end": "17:00",
-        "months_array": [10,11]
+        "months_array": [10,11],
+        "months_str": "Oct - Nov"
     },
     {
         "bug_name": "Monarch",
@@ -87,7 +96,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [11]
+        "months_array": [11],
+        "months_str": "Nov"
     },
     {
         "bug_name": "Emperor",
@@ -96,7 +106,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "19:00",
         "catch_time_end": "8:00",
-        "months_array": [6,7,8,9]
+        "months_array": [6,7,8,9],
+        "months_str": "Jun - Sept"
     },
     {
         "bug_name": "Agrias butterfly",
@@ -105,7 +116,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [6,7,8,9]
+        "months_array": [6,7,8,9],
+        "months_str":"Jun - Sept"
     },
     {
         "bug_name": "Raja Brooke",
@@ -114,7 +126,8 @@
         "location": "Near freshwater",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [5,6,7,8,9]
+        "months_array": [5,6,7,8,9],
+        "months_str": "May - Sept"
     },
     {
         "bug_name": "Birdwing",
@@ -123,7 +136,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "16:00",
-        "months_array": [6,7,8,9]
+        "months_array": [6,7,8,9],
+        "months_str":"Jun - Sept"
     },
     {
         "bug_name": "Moth",
@@ -132,7 +146,8 @@
         "location": "Flying near light sources",
         "catch_time_start": "19:00",
         "catch_time_end": "4:00",
-        "months_array": [5,6,7,8,9]
+        "months_array": [5,6,7,8,9],
+        "months_str": "May - Sept"
     },
     {
         "bug_name": "Oak Silk Moth",
@@ -141,7 +156,8 @@
         "location": "On any trees",
         "catch_time_start": "19:00",
         "catch_time_end": "4:00",
-        "months_array": [6,7,8,9]
+        "months_array": [6,7,8,9],
+        "months_str": "Jun - Sept"
     },
     {
         "bug_name": "Honeybee",
@@ -150,7 +166,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [3,4,5,6]
+        "months_array": [3,4,5,6],
+        "months_str": "Mar - Jun"
     },
     {
         "bug_name": "Honeybee",
@@ -159,7 +176,8 @@
         "location": "Flying near flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "16:00",
-        "months_array": [7]
+        "months_array": [7],
+        "months_str": "Jul"
     },
     {
         "bug_name": "Bee",
@@ -168,16 +186,18 @@
         "location": "Shaking trees",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12]
+        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "months_str": "All year"
     },
     {
         "bug_name": "Long Locust",
         "bug_image": "",
         "price": 200,
         "location": "On the ground",
-        "catch_time_start": "0:00",
-        "catch_time_end": "0:00",
-        "months_array": [5,6,7,8,9,10,11]
+        "catch_time_start": "8:00",
+        "catch_time_end": "19:00",
+        "months_array": [5,6,7,8,9,10,11],
+        "months_str": "May - Nov"
     },
     {
         "bug_name": "Migratory Locust",
@@ -186,7 +206,8 @@
         "location": "On the ground",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [8,9,10,11]
+        "months_array": [8,9,10,11],
+        "months_str": "Aug - Nov"
     },
     {
         "bug_name": "Mantis",
@@ -195,7 +216,8 @@
         "location": "On flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [4,5,6,7,8,9,10,11]
+        "months_array": [4,5,6,7,8,9,10,11],
+        "months_str": "Apr - Nov"
     },
     {
         "bug_name": "Orchid Mantis",
@@ -204,7 +226,8 @@
         "location": "On white flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [4,5,6,7,8,9,10,11]
+        "months_array": [4,5,6,7,8,9,10,11],
+        "months_str": "Apr - Nov"
     },
     {
         "bug_name": "Brown Cicada",
@@ -213,7 +236,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Robust Cicada",
@@ -222,7 +246,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Walker Cicada",
@@ -231,7 +256,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8,9]
+        "months_array": [7,8,9],
+        "months_str": "Jul - Sept"
     },
     {
         "bug_name": "Evening Cicada",
@@ -240,7 +266,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "4:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Evening Cicada",
@@ -249,7 +276,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "16:00",
         "catch_time_end": "19:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Lantern Fly",
@@ -258,7 +286,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "16:00",
         "catch_time_end": "19:00",
-        "months_array": [6,9]
+        "months_array": [6,9],
+        "months_str": "Jun; Sept"
     },
     {
         "bug_name": "Lantern Fly",
@@ -267,7 +296,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "23:00",
         "catch_time_end": "4:00",
-        "months_array": [6,9]
+        "months_array": [6,9],
+        "months_str": "Jun; Sept"
     },
     {
         "bug_name": "Lantern Fly",
@@ -276,7 +306,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "16:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str":"Jul - Aug"
     },
     {
         "bug_name": "Red dragonfly",
@@ -285,7 +316,8 @@
         "location": "Flying",
         "catch_time_start": "8:00",
         "catch_time_end": "19:00",
-        "months_array": [9,10]
+        "months_array": [9,10],
+        "months_str": "Sept - Oct"
     },
     {
         "bug_name": "Darner dragonfly",
@@ -294,7 +326,8 @@
         "location": "Flying",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [6,7,8]
+        "months_array": [6,7,8],
+        "months_str": "Jun - Aug"
     },
     {
         "bug_name": "Banded dragonfly",
@@ -303,7 +336,8 @@
         "location": "Flying",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str":"Jul - Aug"
     },
     {
         "bug_name": "Giant Petaltail",
@@ -312,7 +346,8 @@
         "location": "Flying",
         "catch_time_start": "17:00",
         "catch_time_end": "19:00",
-        "months_array": [8,9,10]
+        "months_array": [8,9,10],
+        "months_str": "Aug - Oct"
     },
     {
         "bug_name": "Ant",
@@ -321,7 +356,8 @@
         "location": "Candy/Rotten turnips",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12]
+        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "months_str":"All year"
     },
     {
         "bug_name": "Pondskater",
@@ -330,7 +366,8 @@
         "location": "On rivers and ponds",
         "catch_time_start": "8:00",
         "catch_time_end": "19:00",
-        "months_array": [5,6,7,8,9]
+        "months_array": [5,6,7,8,9],
+        "months_str": "May - Sept"
     },
     {
         "bug_name": "Diving beetle",
@@ -339,7 +376,8 @@
         "location": "On rivers and ponds",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [5,6,7,8,9]
+        "months_array": [5,6,7,8,9],
+        "months_str":"May - Sept"
     },
     {
         "bug_name": "Snail",
@@ -348,7 +386,8 @@
         "location": "On flowers, when raining",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [4,5,6,7,8,9]
+        "months_array": [4,5,6,7,8,9],
+        "months_str": "Apr - Sept"
     },
     {
         "bug_name": "Cricket",
@@ -357,7 +396,8 @@
         "location": "On the ground",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [9,10,11]
+        "months_array": [9,10,11],
+        "months_str": "Sept - Nov"
     },
     {
         "bug_name": "Bell Cricket",
@@ -366,7 +406,8 @@
         "location": "On the ground",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [9,10]
+        "months_array": [9,10],
+        "months_str": "Sept - Oct"
     },
     {
         "bug_name": "Grasshopper",
@@ -375,7 +416,8 @@
         "location": "On the ground",
         "catch_time_start": "16:00",
         "catch_time_end": "17:00",
-        "months_array": [7]
+        "months_array": [7],
+        "months_str": "Jul"
     },
     {
         "bug_name": "Grasshopper",
@@ -384,7 +426,8 @@
         "location": "On the ground",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [8,9]
+        "months_array": [8,9],
+        "months_str": "Aug - Sept"
     },
     {
         "bug_name": "Mole Cricket",
@@ -393,7 +436,8 @@
         "location": "Underground",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [1,2,3,4,5,11,12]
+        "months_array": [1,2,3,4,5,11,12],
+        "months_str": "Jan - Mar; Nov - Dec"
     },
     {
         "bug_name": "Walking Leaf",
@@ -402,7 +446,8 @@
         "location": "On the ground",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8,9]
+        "months_array": [7,8,9],
+        "months_str": "Jul - Sept"
     },
     {
         "bug_name": "Walkingstick",
@@ -411,7 +456,8 @@
         "location": "On any trees",
         "catch_time_start": "4:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Walkingstick",
@@ -420,7 +466,8 @@
         "location": "On any trees",
         "catch_time_start": "17:00",
         "catch_time_end": "19:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Walkingstick",
@@ -429,7 +476,8 @@
         "location": "On any trees",
         "catch_time_start": "4:00",
         "catch_time_end": "19:00",
-        "months_array": [9,10,11]
+        "months_array": [9,10,11],
+        "months_str": "Sept - Nov"
     },
     {
         "bug_name": "Bagworm",
@@ -438,7 +486,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [1,2,10,11,12]
+        "months_array": [1,2,10,11,12],
+        "months_str": "Jan - Feb; Oct - Dec"
     },
     {
         "bug_name": "Ladybug",
@@ -447,7 +496,8 @@
         "location": "On flowers",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [3,4,5,6,9,10]
+        "months_array": [3,4,5,6,9,10],
+        "months_str": "Mar - Jun; Sept - Oct"
     },
     {
         "bug_name": "Violin Beetle",
@@ -456,7 +506,8 @@
         "location": "On tree stumps",
         "catch_time_start": "4:00",
         "catch_time_end": "19:00",
-        "months_array": [6]
+        "months_array": [6],
+        "months_str": "Jun"
     },
     {
         "bug_name": "Violin Beetle",
@@ -465,7 +516,8 @@
         "location": "On tree stumps",
         "catch_time_start": "4:00",
         "catch_time_end": "17:00",
-        "months_array": [9,10]
+        "months_array": [9,10],
+        "months_str": "Sept - Oct"
     },
     {
         "bug_name": "Violin Beetle",
@@ -474,7 +526,8 @@
         "location": "On tree stumps",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [11]
+        "months_array": [11],
+        "months_str": "Nov"
     },
     {
         "bug_name": "Longhorn Beetle",
@@ -483,7 +536,8 @@
         "location": "On tree stumps",
         "catch_time_start": "23:00",
         "catch_time_end": "19:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str":"Jul - Aug"
     },
     {
         "bug_name": "Dung Beetle",
@@ -492,7 +546,8 @@
         "location": "Pushing snowballs",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [1,2,12]
+        "months_array": [1,2,12],
+        "months_str": "Jan - Feb; Dec"
     },
     {
         "bug_name": "Firefly",
@@ -501,7 +556,8 @@
         "location": "Flying near freshwater",
         "catch_time_start": "19:00",
         "catch_time_end": "4:00",
-        "months_array": [6]
+        "months_array": [6],
+        "months_str": "Jun"
     },
     {
         "bug_name": "Fruit Beetle",
@@ -510,7 +566,8 @@
         "location": "Shaking trees",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Fruit Beetle",
@@ -519,7 +576,8 @@
         "location": "On hardwood and cedar trees",
         "catch_time_start": "19:00",
         "catch_time_end": "8:00",
-        "months_array": [9]
+        "months_array": [9],
+        "months_str": "Sept"
     },
     {
         "bug_name": "Scarab Beetle",
@@ -528,7 +586,8 @@
         "location": "On any trees",
         "catch_time_start": "23:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Jewel Beetle",
@@ -537,7 +596,8 @@
         "location": "On any trees",
         "catch_time_start": "8:00",
         "catch_time_end": "17:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Miyama Stag Beetle",
@@ -546,7 +606,8 @@
         "location": "On any trees",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Saw Stag Beetle",
@@ -555,7 +616,8 @@
         "location": "On any trees",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Giant Beetle",
@@ -564,7 +626,8 @@
         "location": "On any trees",
         "catch_time_start": "23:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Rainbow Stag",
@@ -573,7 +636,8 @@
         "location": "On any trees",
         "catch_time_start": "19:00",
         "catch_time_end": "8:00",
-        "months_array": [6,9]
+        "months_array": [6,9],
+        "months_str": "Jun; Sept"
     },
     {
         "bug_name": "Rainbow Stag",
@@ -582,7 +646,8 @@
         "location": "On any trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Cyclommatus",
@@ -591,7 +656,8 @@
         "location": "On palm trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Golden Stag",
@@ -600,16 +666,18 @@
         "location": "On palm trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
-        "bug_name": "Horned Dynastid",
+        "bug_name": "Dynastid Beetle",
         "bug_image": "",
         "price": 1350,
         "location": "On any trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Atlas Beetle",
@@ -618,7 +686,8 @@
         "location": "On palm trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Elephant Beetle",
@@ -627,7 +696,8 @@
         "location": "On palm trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Hercules Beetle",
@@ -636,7 +706,8 @@
         "location": "On palm trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Goliath Beetle",
@@ -645,7 +716,8 @@
         "location": "On palm trees",
         "catch_time_start": "19:00",
         "catch_time_end": "8:00",
-        "months_array": [6,9]
+        "months_array": [6,9],
+        "months_str": "Jun; Sept"
     },
     {
         "bug_name": "Goliath Beetle",
@@ -654,7 +726,8 @@
         "location": "On palm trees",
         "catch_time_start": "17:00",
         "catch_time_end": "8:00",
-        "months_array": [7,8]
+        "months_array": [7,8],
+        "months_str": "Jul - Aug"
     },
     {
         "bug_name": "Flea",
@@ -663,7 +736,8 @@
         "location": "On villagers",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [3,4,5,6,7,8,9,10,11]
+        "months_array": [3,4,5,6,7,8,9,10,11],
+        "months_str": "Mar - Nov"
     },
     {
         "bug_name": "Pill Bug",
@@ -672,7 +746,8 @@
         "location": "From hitting rocks",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12]
+        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "months_str":"All year"
     },
     {
         "bug_name": "Mosquito",
@@ -681,7 +756,8 @@
         "location": "Flying",
         "catch_time_start": "17:00",
         "catch_time_end": "4:00",
-        "months_array": [6,7,8,9]
+        "months_array": [6,7,8,9],
+        "months_str": "Jun - Sept"
     },
     {
         "bug_name": "Fly",
@@ -690,7 +766,8 @@
         "location": "Flying near rafflesia, trash, or rotten turnips",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12]
+        "months_array": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "months_str":"All year"
     },
     {
         "bug_name": "Centipede",
@@ -699,7 +776,8 @@
         "location": "From hitting rocks",
         "catch_time_start": "16:00",
         "catch_time_end": "23:00",
-        "months_array": [1,2,6,7,8,9,10,11,12]
+        "months_array": [1,2,6,7,8,9,10,11,12],
+        "months_str": "Jan - Feb; Jun - Dec"
     },
     {
         "bug_name": "Spider",
@@ -708,7 +786,8 @@
         "location": "Shaking trees",
         "catch_time_start": "0:00",
         "catch_time_end": "0:00",
-        "months_array": [3,4,5,6,9]
+        "months_array": [3,4,5,6,9],
+        "months_str": "Mar - Sept"
     },
     {
         "bug_name": "Tarantula",
@@ -717,7 +796,8 @@
         "location": "On the ground",
         "catch_time_start": "19:00",
         "catch_time_end": "4:00",
-        "months_array": [6,7,8]
+        "months_array": [6,7,8],
+        "months_str": "Jun - Aug"
     },
     {
         "bug_name": "Scorpion",
@@ -726,6 +806,7 @@
         "location": "On the ground",
         "catch_time_start": "19:00",
         "catch_time_end": "4:00",
-        "months_array": [7,8,9]
+        "months_array": [7,8,9],
+        "months_str": "Jul - Sept"
     }
 ]
