@@ -3,7 +3,7 @@ import CityFolkDash from './CityFolkDash';
 import Dashboard from './Dashboard';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import {today, now, currentMonth} from "../server/utils/date-time"
-
+const cf_bugs = require("../server/db/00-cf_bugs.json")
 const App = () => {
     return (
         <Switch>
@@ -14,7 +14,7 @@ const App = () => {
                 <Dashboard/>
             </Route>
             <Route path="/cityfolk" exact={true}>
-                <CityFolkDash date={today()} time={now()} month={currentMonth()}/>
+                <CityFolkDash date={today()} time={now()} month={currentMonth()} bugs = {cf_bugs}/>
             </Route>            
         </Switch>
 
