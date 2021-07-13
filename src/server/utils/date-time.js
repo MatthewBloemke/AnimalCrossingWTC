@@ -11,6 +11,12 @@ function asTimeString(date) {
     return date.getHours() + ":" + date.getMinutes();
 };
 
+export function asPrettyDate() {
+    const date = new Date();
+    const month = date.toLocaleString('default', {month: "long"})
+    return `${month} ${date.getDate().toString(10)}, ${date.getFullYear().toString(10)}`
+}
+
 export function asTwelveHourTimeString(time) {
     if (time.slice(0,2) === "12") {
         return time + "pm"
