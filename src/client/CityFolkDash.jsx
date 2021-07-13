@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import { asTwelveHourTimeString } from "../server/utils/date-time";
+import { asPrettyDate, asTwelveHourTimeString } from "../server/utils/date-time";
 import {formatBugTable} from "./layout/formatInfoTables"
 
 const CityFolkDash = ({date, time, bugs, month}) => {
@@ -40,7 +40,7 @@ const CityFolkDash = ({date, time, bugs, month}) => {
     return (
         <div>
             <h1>City Folk</h1>
-            <p>{date}, {time}</p>
+            <p>{asPrettyDate()}, {asTwelveHourTimeString(time)}</p>
             <select name="filter" id="filter" onChange={onChange}>
                 <option value="price">Price</option>
                 <option value="location">Location</option>
