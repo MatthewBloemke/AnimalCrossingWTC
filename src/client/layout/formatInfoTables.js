@@ -3,7 +3,6 @@ import { asTwelveHourTimeString } from '../../server/utils/date-time';
 
 export function formatBugTable (bugs) {
     const formattedTable = []
-    console.log(bugs)
     for (let i = 0; i<bugs.length; i++) {
         let timeRange =""
         if (bugs[i].catch_time_start === "0:00") {
@@ -12,7 +11,7 @@ export function formatBugTable (bugs) {
             timeRange = `${asTwelveHourTimeString(bugs[i].catch_time_start)} - ${asTwelveHourTimeString(bugs[i].catch_time_end)}`
         }
         formattedTable.push(
-            <tr>
+            <tr key={bugs[i].bug_name}>
                 <td>{bugs[i].bug_name}</td>
                 <td>Image coming soon</td>
                 <td>{bugs[i].price}</td>
@@ -22,7 +21,6 @@ export function formatBugTable (bugs) {
             </tr>
         )
     }
-    console.log(formattedTable)
     return (
         <table>
             <thead>
