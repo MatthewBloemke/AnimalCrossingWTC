@@ -4,7 +4,6 @@ import {formatBugTable} from "./layout/formatInfoTables"
 
 const CityFolkDash = ({date, time, bugs, month}) => {
     const bugsFilteredByMonth = bugs.filter(bug => bug.months_array.includes(month))
-    const [filteredBugs, setFilteredBugs] = useState([]);
     const [bugTable, setBugTable] = useState([]);
     const [filterCondition, setFilterCondition] = useState("price")
     const onChange = (event) => {
@@ -36,13 +35,12 @@ const CityFolkDash = ({date, time, bugs, month}) => {
             })
         }
         setBugTable(formatBugTable(tempBugArr))
-        setFilteredBugs(tempBugArr)
     }
 
     return (
         <div>
             <h1>City Folk</h1>
-            <p>{date}, {time}, {bugs[0].bug_name}</p>
+            <p>{date}, {time}</p>
             <select name="filter" id="filter" onChange={onChange}>
                 <option value="price">Price</option>
                 <option value="location">Location</option>
