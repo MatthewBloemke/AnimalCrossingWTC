@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import { asPrettyDate, asTwelveHourTimeString } from "../server/utils/date-time";
 import {formatBugTable} from "./layout/formatInfoTables"
 
-const CityFolkDash = ({date, time, bugs, month}) => {
+const CityFolkDash = ({time, bugs, month}) => {
     const bugsFilteredByMonth = bugs.filter(bug => bug.months_array.includes(month))
     const [bugTable, setBugTable] = useState([]);
     const [filterCondition, setFilterCondition] = useState("price")
