@@ -39,3 +39,44 @@ export function formatBugTable (bugs) {
         </table>
     )
 }
+
+export function formatFishTable (fish) {
+    const formattedTable = []
+    for (let i = 0; i<fish.length; i++) {
+        let timeRange =""
+        if (fish[i].catch_time_start === "0:00") {
+            timeRange = "All day"
+        } else {
+            timeRange = `${asTwelveHourTimeString(fish[i].catch_time_start)} - ${asTwelveHourTimeString(fish[i].catch_time_end)}`
+        }
+        formattedTable.push(
+            <tr key={fish[i].fish_name}>
+                <td>{fish[i].fish_name}</td>
+                <td>Image coming soon</td>
+                <td>{fish[i].price}</td>
+                <td>{fish[i].shadow_size}</td>
+                <td>{fish[i].location}</td>
+                <td>{timeRange}</td>
+                <td>{fish[i].months_str}</td>
+            </tr>
+        )
+    }
+    return (
+        <table>
+            <thead>
+                <tr>
+                    <th>Fish Name</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Shadow Size</th>
+                    <th>Location</th>
+                    <th>Time</th>
+                    <th>Months</th>
+                </tr>                
+            </thead>
+            <tbody>
+                {formattedTable}
+            </tbody>
+        </table>
+    )
+}
