@@ -6,7 +6,7 @@ const Dashboard = () => {
         <div>
             <h1>Choose the game</h1>
             <Link to="/cityfolk"><button>Animal Crossing: City Folk</button></Link>
-            <button>Animal Crossing: New Horizons</button>
+            <Link to="/newhorizons/northern"><button>Animal Crossing: New Horizons</button></Link>
         </div>
     )
 }
