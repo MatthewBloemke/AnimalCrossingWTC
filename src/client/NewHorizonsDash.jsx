@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { asPrettyDate, asTwelveHourTimeString } from "../server/utils/date-time";
-import {formatBugTable, formatFishTable} from "./layout/formatInfoTables"
+import {formatBugTable, formatFishTable} from "./utils/formatInfoTables"
 
 const NewHorizonsDash = ({time, bugs, month, fish}) => {
     const bugsFilteredByMonth = bugs.filter(bug => bug.months_array.includes(month))
