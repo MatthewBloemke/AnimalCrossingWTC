@@ -8,7 +8,12 @@ function asDateString(date) {
 };
 
 function asTimeString(date) {
-    return date.getHours() + ":" + date.getMinutes();
+    if (date.getMinutes() < 10) {
+        return date.getHours() + ":0" + date.getMinutes();
+    } else {
+        return date.getHours() + ":" + date.getMinutes();
+    }
+    
 };
 
 export function asPrettyDate() {
