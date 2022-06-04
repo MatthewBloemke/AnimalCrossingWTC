@@ -1,24 +1,23 @@
 import { DataGrid } from '@mui/x-data-grid';
 import React from 'react';
 import { asTwelveHourTimeString } from '../../server/utils/date-time';
-import CommonButterfly from '../assets/Common Butterfly.png'
-
 
 const renderImage = (params) => {
-    return <img src={CommonButterfly}/>
+    
+    return <img style={{height: "64px", width: "64px"}} src={require(`../assets/${params.row.id}.png`).default}/>
 }
 
 export function formatBugTable (bugs) {
     const columns = [
+        {field: 'image', headerName: '', renderCell: renderImage, minWidth: 64, flex: 2, align: "center"},
         {field: 'bug_name', headerName: 'Bug Name', minWidth: 115, flex: 2},
-        {field: 'image', headerName: '', renderCell: renderImage, minWidth: 60, flex: 2},
         {field: 'price', headerName: 'Price', minWidth: 65, flex: 2},
         {field: 'location', headerName: 'Location', minWidth: 185, flex: 2},
         {field: 'timeRange', headerName: 'Time', minWidth: 140, flex: 2},
         {field: 'months', headerName: 'Months', minWidth: 190, flex: 2},
     ]
     const rows = []
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < bugs.length; i++) {
         let timeRange = "";
         if (bugs[i].catch_time_start === "0:00") {
             timeRange = "All day";

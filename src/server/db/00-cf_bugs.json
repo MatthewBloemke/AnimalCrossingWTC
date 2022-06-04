@@ -10,7 +10,7 @@
         "months_str": "Mar - Sept"
     },
     {
-        "bug_name": "Yellow butterfly",
+        "bug_name": "Yellow Butterfly",
         "bug_image": "n/a",
         "price": 90,
         "location": "Flying near flowers",
@@ -110,7 +110,7 @@
         "months_str": "Jun - Sept"
     },
     {
-        "bug_name": "Agrias butterfly",
+        "bug_name": "Agrias Butterfly",
         "bug_image": "",
         "price": 3000,
         "location": "Flying near flowers",
@@ -310,7 +310,7 @@
         "months_str":"Jul - Aug"
     },
     {
-        "bug_name": "Red dragonfly",
+        "bug_name": "Red Dragonfly",
         "bug_image": "",
         "price": 80,
         "location": "Flying",
@@ -320,7 +320,7 @@
         "months_str": "Sept - Oct"
     },
     {
-        "bug_name": "Darner dragonfly",
+        "bug_name": "Darner Dragonfly",
         "bug_image": "",
         "price": "200",
         "location": "Flying",
@@ -330,7 +330,7 @@
         "months_str": "Jun - Aug"
     },
     {
-        "bug_name": "Banded dragonfly",
+        "bug_name": "Banded Dragonfly",
         "bug_image": "",
         "price": 4500,
         "location": "Flying",
@@ -370,7 +370,7 @@
         "months_str": "May - Sept"
     },
     {
-        "bug_name": "Diving beetle",
+        "bug_name": "Diving Beetle",
         "bug_image": "",
         "price": 800,
         "location": "On rivers and ponds",

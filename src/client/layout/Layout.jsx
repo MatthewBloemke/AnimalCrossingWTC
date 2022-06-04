@@ -5,7 +5,6 @@ import SideMenu from "../SideMenu";
 import Routes from "../layout/Routes";
 import "./layout.css"
 
-
 const Layout = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
     const closeDrawer = () => {
