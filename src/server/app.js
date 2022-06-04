@@ -1,4 +1,5 @@
 const path = require("path");
+const fs = require('fs')
 require("dotenv").config({path: path.join(__dirname, "..", ".env")});
 
 const express = require("express");
@@ -9,9 +10,12 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/bundle.js", (req, res) => {
-    res.sendFile(path.join(__dirname, "/out/bundle.js"));
+fs.readdirSync('./src/server/out').forEach(file => {
+    app.get(`/${file}`, (req, res) => {
+        res.sendFile(path.join(__dirname, `/out/${file}`));
+    });
 });
+
 
 app.use(notFound);
 app.use(errorHandler);
