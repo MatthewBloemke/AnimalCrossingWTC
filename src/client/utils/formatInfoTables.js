@@ -42,8 +42,8 @@ export function formatBugTable (bugs) {
 
 export function formatFishTable (fish) {
     const columns = [
+        {field: 'image', headerName: '', renderCell: renderImage, minWidth: 64, flex: 2, align: "center"},
         {field: 'fish_name', headerName: 'Fish Name', minWidth: 115, flex: 2},
-        {field: 'image', headerName: 'Image', minWidth: 60, flex: 2},
         {field: 'price', headerName: 'Price', minWidth: 65, flex: 2},
         {field: 'shadow_size', headerName: "Shadow Size", minWidth: 120, flex: 2},
         {field: 'location', headerName: 'Location', minWidth: 185, flex: 2},
@@ -59,7 +59,7 @@ export function formatFishTable (fish) {
             timeRange = `${asTwelveHourTimeString(fish[i].catch_time_start)} - ${asTwelveHourTimeString(fish[i].catch_time_end)}`
         }
         rows.push(
-            {id: fish[i].fish_name, fish_name: fish[i].fish_name, image: "Image Coming Soon", price: fish[i].price, shadow_size: fish[i].shadow_size, location: fish[i].location, timeRange: timeRange, months: fish[i].months_str}
+            {id: fish[i].fish_name, fish_name: fish[i].fish_name, price: fish[i].price, shadow_size: fish[i].shadow_size, location: fish[i].location, timeRange: timeRange, months: fish[i].months_str}
         )
     }
     return (
