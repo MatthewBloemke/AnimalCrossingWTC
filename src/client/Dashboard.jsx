@@ -12,7 +12,7 @@ const Dashboard = () => {
                     <Link style={{textDecoration: "none", marginBottom: "15px"}} to="/cityfolk"><Button variant="contained">Animal Crossing: City Folk</Button></Link>
                 </Grid>
                 <Grid item xs={12} sm={6} md= {6} lg = {6}>
-                    <Link to="/newhorizons/northern" style={{textDecoration: "none"}}><Button variant="contained">Animal Crossing: New Horizons</Button></Link>
+                    <Link to="/newhorizons/northern" style={{textDecoration: "none"}}><Button disabled="disabled" variant="contained">Animal Crossing: New Horizons</Button></Link>
                 </Grid>
                            
             </Grid>            
