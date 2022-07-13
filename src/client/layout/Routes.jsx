@@ -4,9 +4,13 @@ import Dashboard from '../Dashboard';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import {today, now, currentMonth} from "../../server/utils/date-time"
 import NewHorizonsDash from '../NewHorizonsDash';
-const cf_bugs = require("../../server/db/00-cf_bugs.json")
-const cf_fish = require("../../server/db/01-cf_fish.json")
+import { pullNHfish } from '../utils/api';
+const cf_bugs = require("../../server/db/00-cf_bugs.json");
+const cf_fish = require("../../server/db/01-cf_fish.json");
 const nh_n_fish = require("../../server/db/02-nh_n_fish.json")
+pullNHfish(currentMonth())
+    .then(console.log);
+
 
 const Routes = () => {
     return (
