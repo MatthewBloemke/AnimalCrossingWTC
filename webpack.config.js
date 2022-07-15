@@ -1,6 +1,8 @@
 const path = require("path");
 const webpack = require('webpack')
-const SRC = path.resolve(__dirname, 'node_modules')
+require('dotenv').config( {
+    path: path.join(__dirname, './.env')
+  } );
 
 module.exports = {
     entry: "./src/client/index.jsx",
@@ -43,8 +45,8 @@ module.exports = {
         extensions: [".js", ".jsx", "*"]
     },
     plugins: [
-        new webpack.ProvidePlugin({
-            process: 'process/browser'
+        new webpack.DefinePlugin({
+            "process.env": JSON.stringify(process.env)
         }),
     ]
 }
