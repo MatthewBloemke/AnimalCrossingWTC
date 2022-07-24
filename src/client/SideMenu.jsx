@@ -12,10 +12,10 @@ const SideMenu = ({closeDrawer}) => {
             <ListItemButton divider onClick={closeDrawer} component={Link} to="/cityfolk">
                 <ListItemText primary="City Folk"/>
             </ListItemButton>
-            <ListItemButton divider onClick={closeDrawer} component={Link} to="/newhorizons/northern">
+            <ListItemButton divider onClick={closeDrawer} component={Link} to="/newhorizons/north">
                 <ListItemText primary="New Horizons: Northern Hemisphere"/>
             </ListItemButton>
-            <ListItemButton divider onClick={closeDrawer} component={Link} to="/newhorizons/southern">
+            <ListItemButton divider onClick={closeDrawer} component={Link} to="/newhorizons/south">
                 <ListItemText primary="New Horizons: Southern Hemisphere"/>
             </ListItemButton>
         </List>
