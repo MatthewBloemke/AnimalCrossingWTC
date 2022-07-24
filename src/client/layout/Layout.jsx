@@ -15,6 +15,7 @@ const Layout = () => {
         <main>
             <Grid container justifyContent="center" >
                 <Grid item xs={12}>
+                    <AppBar position="static" sx={{backgroundColor: '#00ac00', paddingTop: "10px"}}></AppBar>
                     <AppBar position="static">
                         <Toolbar>
                             <IconButton
