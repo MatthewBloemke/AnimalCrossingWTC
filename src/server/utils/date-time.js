@@ -16,8 +16,7 @@ function asTimeString(date) {
     
 };
 
-export function asPrettyDate() {
-    const date = new Date();
+export function asPrettyDate(date) {
     const month = date.toLocaleString('default', {month: "long"})
     return `${month} ${date.getDate().toString(10)}, ${date.getFullYear().toString(10)}`
 }

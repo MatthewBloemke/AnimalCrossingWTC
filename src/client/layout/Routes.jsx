@@ -11,7 +11,6 @@ const cf_fish = require("../../server/db/01-cf_fish.json");
 
 
 const Routes = () => {
-
     return (
         <Switch>
             <Route path="/" exact={true}>
@@ -21,7 +20,7 @@ const Routes = () => {
                 <Dashboard/>
             </Route>
             <Route path="/cityfolk" exact={true}>
-                <CityFolkDash date={today()} time={now()} month={currentMonth()} bugs = {cf_bugs} fish = {cf_fish}/>
+                <CityFolkDash time={now()} month={currentMonth()} bugs = {cf_bugs} fish = {cf_fish}/>
             </Route>
             <Route path="/newhorizons/:hemisphere">
                 <NewHorizonsDash date={today()} time={now()} month={currentMonth()}/>
