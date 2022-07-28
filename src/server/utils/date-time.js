@@ -1,6 +1,3 @@
-const dateFormat = /\d\d\d\d-\d\d-\d\d/;
-const timeFormat = /\d\d:\d\d/;
-
 function asDateString(date) {
     return `${date.getFullYear().toString(10)}-${(date.getMonth()+1)
     .toString(10)
@@ -12,30 +9,29 @@ function asTimeString(date) {
         return date.getHours() + ":0" + date.getMinutes();
     } else {
         return date.getHours() + ":" + date.getMinutes();
-    }
-    
+    };
 };
 
 export function asPrettyDate(date) {
-    const month = date.toLocaleString('default', {month: "long"})
-    return `${month} ${date.getDate().toString(10)}, ${date.getFullYear().toString(10)}`
-}
+    const month = date.toLocaleString('default', {month: "long"});
+    return `${month} ${date.getDate().toString(10)}, ${date.getFullYear().toString(10)}`;
+};
 
 export function asTwelveHourTimeString(time) {
     if (time.slice(0,2) === "12") {
-        return time + "pm"
+        return time + "pm";
     } else if (time.slice(0,2) > 12) {
-        const newTime = time.slice(0,2)-12
-        return `${newTime}:${time.slice(3,5)}pm` 
+        const newTime = time.slice(0,2)-12;
+        return `${newTime}:${time.slice(3,5)}pm`;
     } else {
-        return time + "am";
-    }
-}
+        return time + "am";;
+    };
+};
 
 export function currentMonth() {
-    const date = new Date()
-    return (date.getMonth() + 1)
-}
+    const date = new Date();
+    return (date.getMonth() + 1);
+};
 
 export function today() {
     return asDateString(new Date());

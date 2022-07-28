@@ -2,8 +2,8 @@ import { DataGrid } from '@mui/x-data-grid';
 import React from 'react';
 
 const renderImage = (params) => {
-    return <img style={{height: "64px", width: "64px"}} src={params.row.id}/>
-}
+    return <img style={{height: "64px", width: "64px"}} src={params.row.id}/>;
+};
 
 export function formatNHBugTable (bugs, month, hemisphere) {
     const columns = [
@@ -14,13 +14,13 @@ export function formatNHBugTable (bugs, month, hemisphere) {
         {field: 'location', headerName: 'Location', minWidth: 185, flex: 2},
         {field: 'timeRange', headerName: 'Time', minWidth: 140, flex: 2},
         {field: 'months', headerName: 'Months', minWidth: 190, flex: 2},
-    ]
-    const rows = []
+    ];
+    const rows = [];
     for (let i = 0; i < bugs.length; i++) {
         rows.push(
             {id: bugs[i].image_url, bug_name: bugs[i].name, nookPrice: bugs[i].sell_nook, flickPrice: bugs[i].sell_flick, location: bugs[i].location, timeRange: bugs[i][hemisphere].times_by_month[month], months: bugs[i][hemisphere].months}
-        )
-    }
+        );
+    };
     return (
         <div style = {{height: 500}}>
             <DataGrid
@@ -30,8 +30,8 @@ export function formatNHBugTable (bugs, month, hemisphere) {
                 rowsPerPageOptions={[50]}
             />
         </div>
-    )
-}
+    );
+};
 
 export function formatNHFishTable (fish, month, hemisphere) {
     const columns = [
@@ -43,13 +43,13 @@ export function formatNHFishTable (fish, month, hemisphere) {
         {field: 'location', headerName: 'Location', minWidth: 185, flex: 2},
         {field: 'timeRange', headerName: 'Time', minWidth: 140, flex: 2},
         {field: 'months', headerName: 'Months', minWidth: 190, flex: 2},
-    ]
-    const rows = []
+    ];
+    const rows = [];
     for (let i = 0; i<fish.length; i++) {
         rows.push(
             {id: fish[i].image_url, fish_name: fish[i].name, cjPrice: fish[i].sell_cj, nookPrice: fish[i].sell_nook, shadow_size: fish[i].shadow_size, location: fish[i].location, timeRange: fish[i][hemisphere].times_by_month[month] , months: fish[i][hemisphere].months}
-        )
-    }
+        );
+    };
     return (
         <div style={{height: 500}}>
             <DataGrid
@@ -59,5 +59,5 @@ export function formatNHFishTable (fish, month, hemisphere) {
                 rowsPerPageOptions={[50]}
             />
         </div>
-    )
-}
+    );
+};

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import {AppBar, Grid, IconButton, Toolbar, Typography, MenuItem, Menu, Drawer, useMediaQuery, Avatar, Divider} from '@mui/material';
+import {AppBar, Grid, IconButton, Toolbar, Typography, Drawer} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import SideMenu from "../SideMenu";
 import Routes from "../layout/Routes";
-import "./layout.css"
+import "./layout.css";
 
 const Layout = () => {
-    const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const closeDrawer = () => {
-        setIsDrawerOpen(false)
-    }
+        setIsDrawerOpen(false);
+    };
 
     return (
         <main>
@@ -42,7 +42,7 @@ const Layout = () => {
                 </Grid>
             </Grid>            
         </main>
-    )
-}
+    );
+};
 
 export default Layout;

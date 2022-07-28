@@ -1,13 +1,12 @@
 import React, {useEffect, useState} from "react";
 import { asPrettyDate, asTwelveHourTimeString, now, currentMonth } from "../server/utils/date-time";
-import {formatBugTable, formatFishTable} from "./utils/formatInfoTables"
+import {formatBugTable, formatFishTable} from "./utils/formatInfoTables";
 import { filterTables } from "./utils/filterTables";
 import { AppBar, Grid, Typography,TextField, FormControl } from "@mui/material";
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
-import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker';
 
 
 const CityFolkDash = ({bugs, fish}) => {
@@ -18,21 +17,21 @@ const CityFolkDash = ({bugs, fish}) => {
     const [activeDate, setActiveDate] = useState(new Date(Date.now()));
 
     const handleChange = (newDate) => {
-        setMonth(newDate.getMonth()+1)
+        setMonth(newDate.getMonth()+1);
         setActiveDate(newDate);
     };
 
     const handleTimeChange = (newTime) => {
-        setTime(newTime.getHours() + ":" + newTime.getMinutes())
-        setActiveDate(newTime)
-    }
+        setTime(newTime.getHours() + ":" + newTime.getMinutes());
+        setActiveDate(newTime);
+    };
 
 
 
     useEffect(() => {
-        setBugTable(formatBugTable(filterTables(bugs, time, month)))
-        setFishTable(formatFishTable(filterTables(fish, time, month)))
-    }, [activeDate])
+        setBugTable(formatBugTable(filterTables(bugs, time, month)));
+        setFishTable(formatFishTable(filterTables(fish, time, month)));
+    }, [activeDate]);
 
     return (
         <Grid container>
@@ -41,9 +40,9 @@ const CityFolkDash = ({bugs, fish}) => {
                     Animal Crossing: City Folk
                 </Typography>
             </AppBar>
-            <Grid item xs={12} sm={6} md={6} lg={6} sx={{mt:"20px"}}>
-                <Grid container alignItems="center" direction="column">
-                    <FormControl sx={{width: "10%", minWidth: "250px", marginBottom: "30px"}}>
+            <Grid item xs={12} sm={12} md={12} lg={12} sx={{mt:"20px"}}>
+                <Grid container justifyContent="space-evenly" direction="row">
+                    <FormControl sx={{width: "10%", minWidth: "250px", height: "65px", marginBottom: "10px"}}>
                         <LocalizationProvider dateAdapter={AdapterDateFns}>
                             <DesktopDatePicker
                                 label="Date"
@@ -54,12 +53,7 @@ const CityFolkDash = ({bugs, fish}) => {
                             />
                         </LocalizationProvider>
                     </FormControl>                    
-                </Grid>
-
-            </Grid>
-            <Grid item xs={12} sm={6} sx={{mt: "20px"}}>
-                <Grid container alignItems="center" direction="column">
-                    <FormControl>
+                    <FormControl sx={{width: "10px", minWidth: "250px", height: "65px"}}>
                         <LocalizationProvider dateAdapter={AdapterDateFns}>
                             <TimePicker
                                 label="Time"
@@ -91,7 +85,7 @@ const CityFolkDash = ({bugs, fish}) => {
                 </Grid>
             </Grid>
         </Grid>
-    )
-}
+    );
+};
 
 export default CityFolkDash;

@@ -1,6 +1,6 @@
 const headers = new Headers();
 headers.append("Content-Type", "application/json");
-headers.append("X-API-KEY", process.env.apiKey)
+headers.append("X-API-KEY", process.env.apiKey);
 
 const fetchJson = async (url, options, onCancel) => {
     try {
@@ -25,9 +25,9 @@ const fetchJson = async (url, options, onCancel) => {
 };
 
 export async function pullNHfish (currentMonth) {
-    return await fetchJson(`https://api.nookipedia.com/nh/fish?month=${currentMonth}`, {headers}, [])
-}
+    return await fetchJson(`https://api.nookipedia.com/nh/fish?month=${currentMonth}`, {headers}, []);
+};
 
 export async function pullNHbugs (currentMonth) {
-    return await fetchJson(`https://api.nookipedia.com/nh/bugs?month=${currentMonth}`, {headers}, [])
-}
+    return await fetchJson(`https://api.nookipedia.com/nh/bugs?month=${currentMonth}`, {headers}, []);
+};

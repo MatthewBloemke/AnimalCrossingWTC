@@ -3,9 +3,8 @@ import React from 'react';
 import { asTwelveHourTimeString } from '../../server/utils/date-time';
 
 const renderImage = (params) => {
-    
-    return <img style={{height: "64px", width: "64px"}} src={require(`../assets/${params.row.id}.png`).default}/>
-}
+    return <img style={{height: "64px", width: "64px"}} src={require(`../assets/${params.row.id}.png`).default}/>;
+};
 
 export function formatBugTable (bugs) {
     const columns = [
@@ -15,8 +14,8 @@ export function formatBugTable (bugs) {
         {field: 'location', headerName: 'Location', minWidth: 185, flex: 2},
         {field: 'timeRange', headerName: 'Time', minWidth: 140, flex: 2},
         {field: 'months', headerName: 'Months', minWidth: 190, flex: 2},
-    ]
-    const rows = []
+    ];
+    const rows = [];
     for (let i = 0; i < bugs.length; i++) {
         let timeRange = "";
         if (bugs[i].catch_time_start === "0:00") {
@@ -26,8 +25,8 @@ export function formatBugTable (bugs) {
         };
         rows.push(
             {id: bugs[i].bug_name, bug_name: bugs[i].bug_name, price: bugs[i].price, location: bugs[i].location, timeRange: timeRange, months: bugs[i].months_str}
-        )
-    }
+        );
+    };
     return (
         <div style = {{height: 500}}>
             <DataGrid
@@ -37,8 +36,8 @@ export function formatBugTable (bugs) {
                 rowsPerPageOptions={[50]}
             />
         </div>
-    )
-}
+    );
+};
 
 export function formatFishTable (fish) {
     const columns = [
@@ -49,19 +48,19 @@ export function formatFishTable (fish) {
         {field: 'location', headerName: 'Location', minWidth: 185, flex: 2},
         {field: 'timeRange', headerName: 'Time', minWidth: 140, flex: 2},
         {field: 'months', headerName: 'Months', minWidth: 190, flex: 2},
-    ]
-    const rows = []
+    ];
+    const rows = [];
     for (let i = 0; i<fish.length; i++) {
-        let timeRange =""
+        let timeRange ="";
         if (fish[i].catch_time_start === "0:00") {
-            timeRange = "All day"
+            timeRange = "All day";
         } else {
-            timeRange = `${asTwelveHourTimeString(fish[i].catch_time_start)} - ${asTwelveHourTimeString(fish[i].catch_time_end)}`
-        }
+            timeRange = `${asTwelveHourTimeString(fish[i].catch_time_start)} - ${asTwelveHourTimeString(fish[i].catch_time_end)}`;
+        };
         rows.push(
             {id: fish[i].fish_name, fish_name: fish[i].fish_name, price: fish[i].price, shadow_size: fish[i].shadow_size, location: fish[i].location, timeRange: timeRange, months: fish[i].months_str}
-        )
-    }
+        );
+    };
     return (
         <div style={{height: 500}}>
             <DataGrid
@@ -71,5 +70,5 @@ export function formatFishTable (fish) {
                 rowsPerPageOptions={[50]}
             />
         </div>
-    )
-}
+    );
+};

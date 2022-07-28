@@ -1,10 +1,10 @@
 const path = require("path");
-const fs = require('fs')
+const fs = require('fs');
 require("dotenv").config({path: path.join(__dirname, "..", "..", ".env")});
 
 const express = require("express");
-const notFound = require("./errors/notFound")
-const errorHandler = require("./errors/errorHandler")
+const notFound = require("./errors/notFound");
+const errorHandler = require("./errors/errorHandler");
 
 const app = express();
 

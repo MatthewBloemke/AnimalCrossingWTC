@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -19,7 +19,7 @@ const SideMenu = ({closeDrawer}) => {
                 <ListItemText primary="New Horizons: Southern Hemisphere"/>
             </ListItemButton>
         </List>
-    )
-}
+    );
+};
 
 export default SideMenu;

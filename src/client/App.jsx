@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ThemeProvider, createTheme } from '@mui/material/styles'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Layout from './layout/Layout';
 
 
@@ -10,7 +10,7 @@ const theme = createTheme({
             main: "#27df19",
         },
     },
-})
+});
 
 const App = () => {
     return (
@@ -23,8 +23,7 @@ const App = () => {
                 </Switch>            
             </Router>            
         </ThemeProvider>
-
-    )
-}
+    );
+};
 
 export default App;
