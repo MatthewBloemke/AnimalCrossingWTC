@@ -88,8 +88,6 @@ const NewHorizonsDash = () => {
                 <Typography variant='h6' component='div' sx={{textAlign: 'center'}}>
                     {params.hemisphere === 'north' ? "Northern" : 'Southern'} Hemisphere
                 </Typography>
-            </Grid>
-            <Grid item xs={12}>
                 <Typography variant='h6' component="div" sx={{textAlign: "center", mt: "5px", mb: "15px"}}>
                     {asPrettyDate(activeDate)}, {asTwelveHourTimeString(time)}
                 </Typography>
